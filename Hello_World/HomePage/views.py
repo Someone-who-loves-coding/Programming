@@ -1,5 +1,9 @@
 from django.shortcuts import render,HttpResponse
 
 def Home(request) : 
-    return HttpResponse('This is Home Page')
+    context  = {
+        'variable1':  'Prakhar Saxena' ,
+        'variable2':  'SRM institute of Science and Technology'
+    }
+    return render(request , 'Homepage.html' , context)
 
