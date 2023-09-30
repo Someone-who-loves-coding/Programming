@@ -6,6 +6,6 @@ def Home(request) :
         'variable2':  'SRM institute of Science and Technology'
     }
     return render(request , 'Homepage.html' , context)
-
+    
 def About(request) :
     return render(request , 'About.html')
