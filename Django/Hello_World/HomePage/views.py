@@ -5,7 +5,7 @@ def Home(request) :
         'variable1':  'Prakhar Saxena' ,
         'variable2':  'SRM institute of Science and Technology'
     }
-    return render(request , 'Homepage.html' , context)
+    return render(request , 'Index.html' , context)
     
 def Contact_Us(request) :
     return render(request , 'Contact Us.html')
