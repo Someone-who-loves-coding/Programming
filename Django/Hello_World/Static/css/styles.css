@@ -171,15 +171,10 @@ color: #FFFFFF;
 color: #FFFFFF;
 background: none;
 }	
-.navbar-toggle {
-}
 /*.carousel-inner*/
 #myCarousel {
     margin-top: 50px;
     border-bottom: 4px solid #CC4646;
-}
-
-.carousel-inner > .item {
 }
 
 .carousel-caption {
@@ -589,9 +584,6 @@ display: inherit;
     display: block;
     padding-left: 19%;
     padding-right: 8%;
-}
-
-.grid .grid-item {
 }
 
 .grid .text-content h5 {
