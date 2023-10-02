@@ -1,7 +1,7 @@
 from django.db import models
 
-class Form(models.model):
+class Contact(models.Model):
     name = models.CharField(max_length=122)
     Email= models.CharField(max_length=122)
-    Phone= models.IntegerField(max_length=10)
-    Subject=models.CharField()
+    Phone= models.IntegerField()
+    Subject=models.CharField(max_length=200)
